@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "img": "src/assets/imgs/dictionary-home.PNG",
+      "title": "Dictionary Web APP",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate nunc et nisl maximus semper. In at lacus dignissim, efficitur lorem at, tincidunt purus. Fusce iaculis, ligula sed convallis malesuada, dui ante ultricies turpis, vel dapibus mi lorem nec turpis. Fusce vitae libero nisi. Mauris rutrum euismod felis non consectetur.",
+      "tech_stack": ["React.JS", "Tailwind.CSS"]
+    },
+
+    {
+      "img": "src/assets/imgs/to-do.PNG",
+      "title": "To Do APP",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate nunc et nisl maximus semper. In at lacus dignissim, efficitur lorem at, tincidunt purus. Fusce iaculis, ligula sed convallis malesuada, dui ante ultricies turpis, vel dapibus mi lorem nec turpis. Fusce vitae libero nisi. Mauris rutrum euismod felis non consectetur.",
+      "tech_stack": ["React.JS", "Tailwind.CSS"]
+    },
+
+    {
+      "img": "src/assets/imgs/space-tourism-destinations.PNG",
+      "title": "Space Tourism",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate nunc et nisl maximus semper. In at lacus dignissim, efficitur lorem at, tincidunt purus. Fusce iaculis, ligula sed convallis malesuada, dui ante ultricies turpis, vel dapibus mi lorem nec turpis. Fusce vitae libero nisi. Mauris rutrum euismod felis non consectetur.",
+      "tech_stack": ["React.JS", "Tailwind.CSS"]
+    },
+
+    {
+      "img": "src/assets/imgs/entertainment-web-app.PNG",
+      "title": "Entertainment Web APP",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate nunc et nisl maximus semper. In at lacus dignissim, efficitur lorem at, tincidunt purus. Fusce iaculis, ligula sed convallis malesuada, dui ante ultricies turpis, vel dapibus mi lorem nec turpis. Fusce vitae libero nisi. Mauris rutrum euismod felis non consectetur.",
+      "tech_stack": ["React.JS", "Tailwind.CSS"]
+    }
+  ]
+}
