@@ -3,14 +3,14 @@
     {
       "img": "src/assets/imgs/dictionary-home.PNG",
       "title": "Dictionary Web APP",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate nunc et nisl maximus semper. In at lacus dignissim, efficitur lorem at, tincidunt purus. Fusce iaculis, ligula sed convallis malesuada, dui ante ultricies turpis, vel dapibus mi lorem nec turpis. Fusce vitae libero nisi. Mauris rutrum euismod felis non consectetur.",
+      "description": "Bu proje bir İngilizce sözlüktür. İngilizce bir sözcüğü yazıp arattığınızda, uygulama karşınıza o sözcüğün anlamını, telaffuzunu ve vikipedia bağlantısını sizlere sunar.",
       "tech_stack": ["React.JS", "Tailwind.CSS"]
     },
 
     {
       "img": "src/assets/imgs/to-do.PNG",
       "title": "To Do APP",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate nunc et nisl maximus semper. In at lacus dignissim, efficitur lorem at, tincidunt purus. Fusce iaculis, ligula sed convallis malesuada, dui ante ultricies turpis, vel dapibus mi lorem nec turpis. Fusce vitae libero nisi. Mauris rutrum euismod felis non consectetur.",
+      "description": "Kullanıcının yapılacaklar listesi olusturabildiği bir uygulama. Yapılacaklar, eklenditen sonra duzenlenebilir, silinebilir",
       "tech_stack": ["React.JS", "Tailwind.CSS"]
     },
 
