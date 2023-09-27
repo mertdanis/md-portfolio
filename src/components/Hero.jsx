@@ -1,10 +1,10 @@
 function Hero() {
   return (
     <>
-      <div className="flex items-center justify-center ">
-        <div className="flex flex-col gap-6">
-          <h2 className="text-6xl">React.js Developer</h2>
-          <p className="">
+      <div className="flex items-center justify-center pt-6 bg-red-500	">
+        <div className="flex flex-col gap-6 ">
+          <h2 className="text-6xl text-center">React.js Developer</h2>
+          <p className="w-5/6">
             Merhaba, ben Mert DANIS! Bir yıldır profesyonel olarak ön-uç
             geliştiriciliği yapıyorum ve projelerimde React.js ile birlikte
             Tailwind.CSS kullanıyorum. Her zaman daha kompleks web uygulamaları
@@ -26,7 +26,7 @@ function Hero() {
         />
       </div>
 
-      <div className="flex items-center justify-center gap-6">
+      <div className="flex items-center justify-center gap-6 border-b-2 mb-6">
         <p className="">Kullandığım teknolojiler</p>
         <ul className="flex gap-6  p-3">
           <li>
