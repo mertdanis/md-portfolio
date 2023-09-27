@@ -1,18 +1,55 @@
 function Hero() {
   return (
-    <div className="flex justify-center items-center ">
-      <p className="w-[30%]">
-        Hello! My name is Mert DANIS, i am from Istanbul, Turkiye. I work with
-        React.js along with Tailwind.CSS in my projects. Proffesionally, working
-        on projects for a year. I am always eager to learn and develop new,
-        better web sites.
-      </p>
-      <img
-        className="h-[500px]"
-        src="/src/assets/imgs/239cd19a-1422-4788-b7ae-eb295a4d68d1.jpg"
-        alt="m.d."
-      />
-    </div>
+    <>
+      <div className="flex items-center justify-center ">
+        <div className="flex flex-col gap-6">
+          <h2 className="text-6xl">React.js Developer</h2>
+          <p className="">
+            Merhaba, ben Mert DANIS! Bir yıldır profesyonel olarak ön-uç
+            geliştiriciliği yapıyorum ve projelerimde React.js ile birlikte
+            Tailwind.CSS kullanıyorum. Her zaman daha kompleks web uygulamaları
+            geliştirmek için çalışıyorum.
+          </p>
+          <div className="flex gap-6 justify-center">
+            <a target="blank" href="https://www.linkedin.com/in/mert-danis/">
+              <i className="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/mertdanis">
+              <i className="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <img
+          className="h-[300px] rounded-2xl"
+          src="/public/assets/imgs/239cd19a-1422-4788-b7ae-eb295a4d68d1.jpg"
+          alt="m.d."
+        />
+      </div>
+
+      <div className="flex items-center justify-center gap-6">
+        <p className="">Kullandığım teknolojiler</p>
+        <ul className="flex gap-6  p-3">
+          <li>
+            <i className="fa-brands fa-html5"></i>
+          </li>
+          <li>
+            <i className="fa-brands fa-css3-alt"></i>
+          </li>
+          <li>
+            <i className="fa-brands fa-js"></i>
+          </li>
+          <li>
+            <i className="fa-brands fa-react"></i>
+          </li>
+          <li>
+            <i className="fa-brands fa-bootstrap"></i>
+          </li>
+          <li>
+            <i className="fa-brands fa-sass"></i>
+          </li>
+        </ul>
+      </div>
+    </>
   );
 }
 
