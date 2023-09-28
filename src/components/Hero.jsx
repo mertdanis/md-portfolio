@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <>
-      <div className="flex items-center justify-center pt-6 bg-red-500	">
+      <div className="flex items-center justify-center min-h-screen	">
         <div className="flex flex-col gap-6 ">
           <h2 className="text-6xl text-center">React.js Developer</h2>
           <p className="w-5/6">
@@ -26,8 +26,8 @@ function Hero() {
         />
       </div>
 
-      <div className="flex items-center justify-center gap-6 border-b-2 mb-6">
-        <p className="">Kullandığım teknolojiler</p>
+      <div className="flex items-center justify-center gap-6 border-b-2 mb-6 w-full">
+        <p className="border-r-2 pr-3 border-black">Kullandığım teknolojiler</p>
         <ul className="flex gap-6  p-3">
           <li>
             <i className="fa-brands fa-html5"></i>

@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form";
+import Title from "./Title";
 
 function Contact() {
   const {
@@ -11,7 +12,8 @@ function Contact() {
 
   return (
     <>
-      <div className="bg-black text-red-500 p-6">
+      <Title>Contact</Title>
+      <div className=" text-black  p-6">
         <form className="flex gap-6" onSubmit={handleSubmit(onSubmit)}>
           <input defaultValue="Name" {...register("example")} />
 
