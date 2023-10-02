@@ -1,13 +1,16 @@
 function Hero() {
   return (
     <>
-      <div className="flex flex-col gap-6  items-center justify-center min-h-screen	">
+      <div
+        id="about"
+        className="flex flex-col gap-6  items-center justify-center min-h-screen	"
+      >
         <h2 className="text-[5rem] ">React.js Developer</h2>
         <div className="flex  gap-6 items-center">
           <p className="items-center w-72 ">
             Merhaba, ben Mert DANIS! Bir yıldır profesyonel olarak ön-uç
-            geliştiriciliği yapıyorum ve projelerimde React.js ile birlikte
-            Tailwind.CSS kullanıyorum.
+            geliştiriciliği yapıyorum. Projelerimde genellikle React.js ile
+            birlikte Tailwind.CSS kullanıyorum.
           </p>
           <div className="mt-6">
             <img
@@ -26,7 +29,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className="flex items-center justify-center gap-6 border-b-2 mb-6  mt-auto ">
+        <div className="flex items-center justify-center gap-6 border-b-2 ">
           <p className="border-r-2 pr-3 border-black ">
             Kullandığım teknolojiler
           </p>

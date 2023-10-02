@@ -27,7 +27,7 @@ function Projects() {
 
 function ProjectContent({ data }) {
   return (
-    <div className="flex  ">
+    <div id="projects" className="flex  ">
       <div className="flex  gap-[4rem]  border-b-2 p-6 rounded-2xl bg-slate-300	 my-3">
         <a className="h-fit" target="blank" href={data.live_url}>
           <img
