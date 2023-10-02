@@ -27,8 +27,8 @@ function Projects() {
 
 function ProjectContent({ data }) {
   return (
-    <div className="flex justify-center ">
-      <div className="flex justify-center gap-[4rem]  border-b-2 p-6 rounded-2xl bg-slate-300	 my-3">
+    <div className="flex  ">
+      <div className="flex  gap-[4rem]  border-b-2 p-6 rounded-2xl bg-slate-300	 my-3">
         <a className="h-fit" target="blank" href={data.live_url}>
           <img
             className="h-[330px]	transition duration-700 cursor-pointer rounded-2xl hover:-translate-y-3"
@@ -50,7 +50,9 @@ function ProjectContent({ data }) {
             <a target="blank" href={data.github}>
               GitHub Repo
             </a>
-            <a href="">Live URL</a>
+            <a target="blank" href="">
+              Live URL
+            </a>
           </div>
         </div>
       </div>
