@@ -1,5 +1,7 @@
-function Title({ children }) {
-  return <p className="h3 text-4xl p-3 text-center">{children}</p>;
+function Title({ children, className }) {
+  return (
+    <h2 className={`h2 text-4xl p-3 text-center ${className}`}>{children}</h2>
+  );
 }
 
 export default Title;

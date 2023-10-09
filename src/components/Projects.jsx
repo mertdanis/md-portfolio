@@ -27,11 +27,11 @@ function Projects() {
 
 function ProjectContent({ data }) {
   return (
-    <div id="projects" className="flex  ">
-      <div className="flex  gap-[4rem]  border-b-2 p-6 rounded-2xl bg-slate-300	 my-3">
+    <div className="flex  ">
+      <div className="flex items-center  gap-[4rem]  border-b-2 p-6 rounded-2xl bg-slate-300 w-[60vw]	my-3">
         <a className="h-fit" target="blank" href={data.live_url}>
           <img
-            className="h-[330px]	transition duration-700 cursor-pointer rounded-2xl hover:-translate-y-3"
+            className="w-50rem h-full transition duration-700 cursor-pointer rounded-2xl hover:-translate-y-3"
             src={data.img}
             alt={data.title}
           />
@@ -40,19 +40,30 @@ function ProjectContent({ data }) {
           <h3 className="text-2xl">{data.title}</h3>
           <p className="w-80">{data.description}</p>
 
-          <div className="flex">
-            <ul>
-              <p className="text-center">Tech Stack</p>
-              <li className="flex ">{data.tech_stack}</li>
+          <div className="flex justify-between items-center w-full">
+            <p className="">Kullanılan Teknolojiler</p>
+            <ul className="flex flex-col">
+              <li>{data.tech_stack}</li>
             </ul>
           </div>
-          <div className="mt-auto flex gap-3">
+
+          <div className=" flex gap-3">
             <a target="blank" href={data.github}>
-              GitHub Repo
+              GitHub Repo URL
             </a>
             <a target="blank" href="">
-              Live URL
+              Proje URL
             </a>
+          </div>
+          <div className="flex w-full justify-between">
+            <p>Proje Durumu</p>
+            <p
+              className={`uppercase font-bold ${
+                data.state === "done" ? "text-green-500" : "text-red-500"
+              }`}
+            >
+              {data.state}
+            </p>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ function Contact() {
 
   return (
     <>
-      <Title>Contact</Title>
+      <Title>İletişim</Title>
       <div id="contact" className=" text-black  p-6">
         <form className="flex gap-6" onSubmit={handleSubmit(onSubmit)}>
           <input defaultValue="Name" {...register("example")} />
