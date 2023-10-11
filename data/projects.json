@@ -16,7 +16,6 @@
       "description": "Kullanıcının yapılacaklar listesi olusturabildiği bir uygulama. Yapılacaklar, eklenditen sonra duzenlenebilir, silinebilir ve yapıldı olarak işaretlenebilir. Yapılacaklar listesi filtrelenebilir. Karanlık ve Aydınlık mod mevcut. ",
       "tech_stack": ["React.JS", "Tailwind.CSS"],
       "state": "done",
-
       "github": "https://github.com/mertdanis/to-do-app",
       "live_url": "https://github.com/mertdanis/entertainment-web-app"
     },
@@ -26,7 +25,7 @@
       "title": "Space Tourism",
       "description": "Bir uzay turizmi şirketinin tanıtım sayfası. Yolculuk yapılacak gezegen ve onun detaylı bilgilerinin yer aldığı bir sayfa mevcut. Ziyaretçiye, şirketin kullandığı teknolojiyi tanıtan bir sayfa mevcut. Yolculuk esnasında yolculara eşlik edecek takımı tanıtan bir sayfa mevcut.",
       "tech_stack": ["React.JS", "Tailwind.CSS"],
-      "state": "done",
+      "state": "under development",
 
       "github": "https://github.com/mertdanis/space-tourism",
       "live_url": "https://github.com/mertdanis/entertainment-web-app"
@@ -37,7 +36,7 @@
       "title": "Entertainment Web APP",
       "description": "Bir film ve dizi uygulaması. Trend olan film ve dizilerin sunulduğu ana sayfa, her iki kategoriyi içerir. Kullanıcı beğendiği içeriği kaydedebilir ve kaydettiği bu içerik farklı bir sayfada kullanıcıya sunulur.",
       "tech_stack": ["React.JS", "Tailwind.CSS"],
-      "state": "done",
+      "state": "under development",
 
       "github": "https://github.com/mertdanis/entertainment-web-app",
       "live_url": "https://github.com/mertdanis/entertainment-web-app"

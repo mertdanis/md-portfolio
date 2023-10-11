@@ -6,7 +6,7 @@ function Hero() {
         className="flex flex-col gap-6  items-center justify-center	min-h-screen"
       >
         <h1 className="text-[5rem] mb-6">React.js Developer</h1>
-        <div className="flex  gap-6 items-center">
+        <div className="flex  gap-6 items-center ">
           <p className="w-72">
             Merhaba, ben Mert DANIS! Bir yıldır profesyonel olarak ön-uç
             geliştiriciliği yapıyorum. Projelerimde genellikle React.js ile
