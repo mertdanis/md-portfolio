@@ -10,9 +10,10 @@ function App() {
       <Header />
       <Hero />
 
-      <div id="projects"></div>
-      <Title className={"underline"}>Projelerim</Title>
-      <Projects />
+      <div id="projects">
+        <Title className={"my-6"}>Projelerim</Title>
+        <Projects />
+      </div>
 
       <Contact />
     </div>

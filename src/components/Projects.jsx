@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-
-import axios from "axios";
 import Title from "./Title";
+import axios from "axios";
 
 function Projects() {
   const [projects, setProjects] = useState();
@@ -36,7 +35,7 @@ function ProjectContent({ data }) {
             alt={data.title}
           />
         </a>
-        <div className="flex items-center flex-col gap-6 ">
+        <div className="flex items-center flex-col gap-6 h-full justify-center">
           <h3 className="text-2xl">{data.title}</h3>
           <p className="w-80">{data.description}</p>
 
@@ -51,19 +50,9 @@ function ProjectContent({ data }) {
             <a target="blank" href={data.github}>
               GitHub Repo URL
             </a>
-            <a target="blank" href="">
+            <a target="blank" href={``}>
               Proje URL
             </a>
-          </div>
-          <div className="flex w-full justify-between">
-            <p>Proje Durumu</p>
-            <p
-              className={`uppercase font-bold ${
-                data.state === "done" ? "text-green-500" : "text-red-500"
-              }`}
-            >
-              {data.state}
-            </p>
           </div>
         </div>
       </div>

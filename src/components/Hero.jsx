@@ -7,10 +7,11 @@ function Hero() {
       >
         <h1 className="text-[5rem] mb-6">React.js Developer</h1>
         <div className="flex  gap-6 items-center ">
-          <p className="w-72">
+          <p className="w-80">
             Merhaba, ben Mert DANIS! Bir yıldır profesyonel olarak ön-uç
             geliştiriciliği yapıyorum. Projelerimde genellikle React.js ile
-            birlikte Tailwind.CSS kullanıyorum.
+            birlikte Tailwind.CSS kullanıyorum. Bu sayfada şu ana kadar
+            geliştirdiğim projelerden bazılarını bulacaksınız.
           </p>
           <div className="mt-6">
             <img

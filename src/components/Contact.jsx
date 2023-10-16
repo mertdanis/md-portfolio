@@ -1,44 +1,68 @@
-import { useForm } from "react-hook-form";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import Title from "./Title";
 
 function Contact() {
-  const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_j316cxg",
+        "template_1z2tk8g",
+        form.current,
+        "1YRalRfSJXmZ4wcif"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <>
-      <Title>İletişim</Title>
-      <div id="contact" className=" text-black  p-6">
-        <form className="flex gap-6" onSubmit={handleSubmit(onSubmit)}>
-          <input defaultValue="Name" {...register("example")} />
-
+      <Title className={"my-6"}>İletişim</Title>
+      <div id="contact" className="border-2 p-6 ">
+        <form
+          className="flex flex-col gap-3 w-[30vw] "
+          ref={form}
+          onSubmit={sendEmail}
+        >
+          <label>Name</label>
+          <input className="border-2 p-2" type="text" name="to_name" />
+          <label>Email</label>
+          <input className="border-2 p-2" type="email" name="from_name" />
+          <label>Message</label>
+          <textarea className="border-2 p-2" name="message" />
           <input
-            defaultValue="Subject"
-            {...register("exampleRequired", { required: true })}
+            className="border-2 cursor-pointer font-bold p-2"
+            type="submit"
+            value="Send"
           />
-
-          {errors.exampleRequired && <span>This field is required</span>}
-
-          <input className="cursor-pointer" type="submit" />
         </form>
       </div>
-      <div className="flex gap-6 justify-center ">
+      <div className="flex gap-6 justify-center my-6 ">
         <div className="flex  items-center gap-3">
-          <i class="fa-solid fa-location-crosshairs"></i>
-          <div className="">
-            <p>location</p>
+          <div>
+            <div className="flex items-center justify-center gap-3">
+              <i className="fa-solid fa-location-crosshairs"></i>
+              <p className=" tracking-widest">location</p>
+            </div>
             <p>Istanbul, Turkiye</p>
           </div>
         </div>
         <div className="flex  items-center gap-3">
-          <i class="fa-solid fa-at"></i>
-          <div className=" ">
-            <p>mail</p>
+          <div>
+            <div className="flex items-center justify-center gap-3">
+              <i className="fa-solid fa-at"></i>
+              <p className=" tracking-widest">mail</p>
+            </div>
             <a href="mailto:mertdanis@outlook.com">mertdanis@outlook.com</a>
           </div>
         </div>
