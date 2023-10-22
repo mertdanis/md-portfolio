@@ -26,11 +26,11 @@ function Projects() {
 
 function ProjectContent({ data }) {
   return (
-    <div className="flex  ">
-      <div className="flex items-center  gap-[4rem]  border-b-2 p-6 rounded-2xl bg-slate-300 w-[60vw]	my-3">
+    <div className="flex flex-col w-[50vw]">
+      <div className="flex items-center  gap-[4rem]  border-b-2 p-6 rounded-2xl border-2 	my-3">
         <a className="h-fit" target="blank" href={data.live_url}>
           <img
-            className="w-50rem h-full transition duration-700 cursor-pointer rounded-2xl hover:-translate-y-3"
+            className=" h-full transition duration-700 cursor-pointer rounded-2xl hover:-translate-y-3"
             src={data.img}
             alt={data.title}
           />

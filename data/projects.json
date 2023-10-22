@@ -47,6 +47,16 @@
 
       "github": "https://github.com/mertdanis/entertainment-web-app",
       "live_url": "https://github.com/mertdanis/entertainment-web-app"
+    },
+
+    {
+      "img": "/public/assets/imgs/projects/audiophile.jpg",
+      "title": "Audiophile",
+      "description": "Bir film ve dizi uygulaması. Trend olan film ve dizilerin sunulduğu ana sayfa, her iki kategoriyi içerir. Kullanıcı beğendiği içeriği kaydedebilir ve kaydettiği bu içerik farklı bir sayfada kullanıcıya sunulur.",
+      "tech_stack": ["React.JS", "Tailwind.CSS"],
+
+      "github": "https://github.com/mertdanis/audiophile",
+      "live_url": "https://github.com/mertdanis/entertainment-web-app"
     }
   ]
 }

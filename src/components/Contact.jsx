@@ -8,25 +8,16 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_j316cxg",
-        "template_1z2tk8g",
-        form.current,
-        "1YRalRfSJXmZ4wcif"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(
+      "service_j316cxg",
+      "template_1z2tk8g",
+      form.current,
+      "1YRalRfSJXmZ4wcif"
+    );
   };
 
   return (
-    <>
+    <div className="flex flex-col  justify-center items-center min-h-screen">
       <Title className={"my-6"}>İletişim</Title>
       <div id="contact" className="border-2 p-6 ">
         <form
@@ -52,22 +43,22 @@ function Contact() {
           <div>
             <div className="flex items-center justify-center gap-3">
               <i className="fa-solid fa-location-crosshairs"></i>
-              <p className=" tracking-widest">location</p>
+              <p className=" tracking-widest uppercase">konum</p>
             </div>
             <p>Istanbul, Turkiye</p>
           </div>
         </div>
-        <div className="flex  items-center gap-3">
+        <div className="flex  items-center gap-3 ">
           <div>
             <div className="flex items-center justify-center gap-3">
               <i className="fa-solid fa-at"></i>
-              <p className=" tracking-widest">mail</p>
+              <p className=" tracking-widest uppercase">mail </p>
             </div>
             <a href="mailto:mertdanis@outlook.com">mertdanis@outlook.com</a>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
